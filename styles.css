@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: Poppins-Light;
+	src: url("Poppins-Light.ttf");
+}
+
+@font-face{
+	font-family: Poppins-Medium;
+	src: url("Poppins-Medium.ttf");
+}
+
+#header{
+	width: 100%;
+	overflow: hidden;
+	background-image: url("img/header_back.png");
+	background-repeat: no-repeat;
+	
+	font-family: 'Poppins-Light';
+	color: white;
+}
+
+#logo{
+	padding: 20px;
+	font-size: 1.4rem;
+	display: inline-block;
+}
+
+#about{
+	font-size: 1.8rem;
+	padding: 20px;
+}
+
+#example{
+	padding: 10px;
+	font-size: 1.4rem;
+}
+
+.links{
+	margin-top: 6px;
+	margin-right:  6px;
+	color: white;
+	float: right;
+	text-align: left;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: Poppins-Medium;
+}
+
+#van{
+	float: left;
+	padding: 10px;
+}
+
+#info{
+	font-family: Poppins-Medium;
+	font-size: 1.3rem;
+}
+
+
+#main_content{
+	margin: auto;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	overflow: hidden;
+}
+
+#road{
+	display: block;
+	margin: auto;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+#footer{
+	width: 100%;
+	background-color: rgb(56, 56, 56);
+
+}
+
+.li{
+	text-align: center;
+	color: white;
+	font-family: Poppins-Light;
+	text-decoration: none;
+	list-style-type: none;
+
+}
